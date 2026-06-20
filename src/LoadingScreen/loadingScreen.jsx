@@ -104,8 +104,8 @@ export default function LoadingScreen({ onFinish }) {
         </motion.h1>
 
         <motion.div
-          id="border-bottom"
-          className="h-1 bg-white origin-right rounded-2xl "
+          id="border-top"
+          className="h-1 bg-white origin-right rounded-2xl"
           initial={{
             scaleX: 0.5,
             opacity: 0,
@@ -115,7 +115,7 @@ export default function LoadingScreen({ onFinish }) {
             opacity: 0.5,
           }}
           transition={{
-            duration: 2,
+            duration: 0.9,
           }}
         ></motion.div>
       </div>
