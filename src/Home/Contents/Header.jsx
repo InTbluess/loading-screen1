@@ -29,8 +29,8 @@ export default function Header() {
       <div className="  w-64 flex justify-center items-center overflow-hidden">
         <motion.span
           className="text-white text-5xl -translate-y-1 font-light"
-          initial={{ y: 100 }}
-          animate={{ y: "0%" }}
+          initial={{ y: 100, rotate: 360 }}
+          animate={{ y: "0%", rotate: 0 }}
           transition={{
             duration: 1,
             delay: 0.4,
@@ -76,8 +76,8 @@ export default function Header() {
       <div className="w-64 flex justify-center items-center overflow-hidden">
         <motion.span
           className="text-white text-5xl -translate-y-1 font-light"
-          initial={{ y: 100 }}
-          animate={{ y: "0%" }}
+          initial={{ y: 100, rotate: 360 }}
+          animate={{ y: "0%", rotate: 0 }}
           transition={{
             duration: 1,
             delay: 0.5,
