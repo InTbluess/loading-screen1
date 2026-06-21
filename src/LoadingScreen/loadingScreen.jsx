@@ -6,10 +6,9 @@ import img5 from "../assets/images/img5.jpg";
 import img6 from "../assets/images/img6.jpg";
 import img7 from "../assets/images/img7.jpg";
 import "./fonts.css";
+import Header from './Header.jsx'
 
-import { motion } from "framer-motion";
-import { animate } from "framer-motion";
-
+import { motion, animate } from "framer-motion";
 import { useEffect, useState } from "react";
 
 const Images = [img1, img2, img3, img4, img5, img6, img7];
@@ -59,7 +58,7 @@ export default function LoadingScreen({ onFinish }) {
   return (
     <div className="bg-black">
       <motion.div
-      className="h-screen w-full flex flex-wrap gap-4 bg-black relative overflow-hidden "
+      className="px-10 py-5 h-screen w-full flex flex-wrap gap-4 bg-black relative overflow-hidden "
       variants={loaderVariants}
       animate={loading ? "visible" : "hidden"}
       onAnimationComplete={() => {
@@ -67,7 +66,8 @@ export default function LoadingScreen({ onFinish }) {
           onFinish();
         }
       }}
-    >
+      >
+      <Header/>
       <div className="absolute flex flex-col justify-between  h-50 w-[calc(100vw-100px)] top-1/2 left-13 -translate-y-1/2">
         <motion.div
           id="border-top"

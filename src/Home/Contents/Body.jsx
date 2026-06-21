@@ -55,7 +55,7 @@ export default function body() {
             duration: 1.2,
             ease: [0.22, 1, 0.36, 1],
             scale: {
-              duration: 15,
+              duration: 20,
               ease: "linear",
               delay: 1.2,
             },
