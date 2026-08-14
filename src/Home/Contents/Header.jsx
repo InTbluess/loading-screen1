@@ -5,7 +5,7 @@ const navButtons = ["Home", "Work", "About"];
 
 export default function Header() {
   return (
-    <div className="header min-w-full h-32 flex flex-row justify-between items-center  ">
+    <div className="min-w-full h-32 flex flex-row justify-between items-center  ">
       <nav className="h-full w-64 flex flex-col justify-between">
         {navButtons.map((buttonText, index) => (
           <div key={buttonText} className="flex-1 overflow-hidden">
