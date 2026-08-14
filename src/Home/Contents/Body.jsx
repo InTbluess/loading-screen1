@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import img10 from "../../assets/images/img10.jpg";
 import img11 from "../../assets/images/img11.jpg";
 import Header from "./Header.jsx";
+// import "../../LoadingScreen/fonts.css";
 
 const bodyText = ["CREATIVE DIGITAL", "PARTNER GROW", "ENGAGEMENT"];
 

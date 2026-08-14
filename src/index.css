@@ -1,7 +1,14 @@
 @import "tailwindcss";
+@import "./fonts.css";
 
-.body{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@theme {
+  --font-geist: "Geist", sans-serif;
+  --font-angelone: "Angelone", sans-serif;
+  --font-opensans: "OpenSans", sans-serif;
+  --font-myfont: "MyFont", sans-serif;
+  --font-oswald: "Oswald", sans-serif;
+}
+
+body {
+  font-family: "Geist", sans-serif;
 }
