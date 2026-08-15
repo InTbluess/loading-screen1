@@ -1,6 +1,7 @@
 import { useState } from "react";
 import LoadingScreen from "./LoadingScreen/loadingScreen.jsx";
 import ImagePreloader from "./ImagePreloader.js";
+import SmoothScroll from "./SmoothScroll";
 import Home from "./Home/Home.jsx";
 
 export default function App() {
@@ -8,7 +9,7 @@ export default function App() {
   const [showLoader, setShowLoader] = useState(true);
 
   return (
-    <>
+    <SmoothScroll>
       {!imagesLoaded && (
         <ImagePreloader
           onComplete={() => setImagesLoaded(true)}
@@ -26,6 +27,6 @@ export default function App() {
         )
       }
       {/* <Home/> */}
-    </>
+    </SmoothScroll>
   );
 }

@@ -39,3 +39,10 @@
   font-weight: 300;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "juturu";
+  src: url("./assets/fonts/juturu.light.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}

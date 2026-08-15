@@ -27,7 +27,7 @@ export default function About() {
   };
 
   return (
-    <section className="mt-50 mb-10 pt-5 min-h-screen w-full flex flex-col justify-start items-center text-white">
+    <section className="mt-50 mb-10 pt-5 min-h-screen w-full flex flex-col justify-start items-center text-white ">
       <motion.div
         id="border-top"
         className="w-full h-0.5 bg-white origin-right rounded-2xl"
