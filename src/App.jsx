@@ -1,15 +1,15 @@
-// import { useState } from "react";
-// import LoadingScreen from "./LoadingScreen/loadingScreen.jsx";
-// import ImagePreloader from "./ImagePreloader.js";
+import { useState } from "react";
+import LoadingScreen from "./LoadingScreen/loadingScreen.jsx";
+import ImagePreloader from "./ImagePreloader.js";
 import Home from "./Home/Home.jsx";
 
 export default function App() {
-  // const [imagesLoaded, setImagesLoaded] = useState(false);
-  // const [showLoader, setShowLoader] = useState(true);
+  const [imagesLoaded, setImagesLoaded] = useState(false);
+  const [showLoader, setShowLoader] = useState(true);
 
   return (
     <>
-      {/* {!imagesLoaded && (
+      {!imagesLoaded && (
         <ImagePreloader
           onComplete={() => setImagesLoaded(true)}
         />
@@ -24,8 +24,8 @@ export default function App() {
         : (
           <Home />
         )
-      } */}
-      <Home/>
+      }
+      {/* <Home/> */}
     </>
   );
 }
