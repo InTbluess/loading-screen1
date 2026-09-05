@@ -18,7 +18,7 @@ export default function GetStarted() {
   };
 
   return (
-    <section className="mt-10 h-screen w-full flex justify-center items-center">
+    <section className="mt-10 h-screen w-full flex justify-center items-center  border border-white">
       <div className="h-[75%] w-full  overflow-hidden relative">
         <motion.div
           className="absolute w-full h-full bg-black/70"

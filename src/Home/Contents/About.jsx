@@ -69,7 +69,7 @@ export default function About() {
             </motion.div>
           </div>
         </div>
-
+        
         {/* About Text */}
         <div id="AboutText" className="">
           <div className="overflow-hidden bg-transparent">
